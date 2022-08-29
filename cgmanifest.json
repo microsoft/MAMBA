@@ -1,11 +1,15 @@
 {
-    "Registrations":[
-        {
-            "Component": {
-                "Type": "git",
-                "git": {"RepositoryUrl": "https://github.com/chinganc/librl", "CommitHash": "7db9759822647ab7e7430559807a061aab016f06" }
-            },
-            "DevelopmentDependency" : false
+  "$schema": "https://json.schemastore.org/component-detection-manifest.json",
+  "Registrations": [
+    {
+      "Component": {
+        "Type": "git",
+        "git": {
+          "RepositoryUrl": "https://github.com/chinganc/librl",
+          "CommitHash": "7db9759822647ab7e7430559807a061aab016f06"
         }
-    ]
+      },
+      "DevelopmentDependency": false
+    }
+  ]
 }
